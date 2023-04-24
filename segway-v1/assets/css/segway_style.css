@@ -1,3 +1,13 @@
+/*colors
+
+#84C1D9 icy blue
+#303B40 blueish black
+#C9E7F2 light blue
+#9FA4A6 cool off white blueis
+#F2F2F2 cool off white
+#F2780C orange
+*/
+
 html {
     box-sizing: border-box;
 }
@@ -12,33 +22,35 @@ html {
     width: 80vw;
     max-width: 960px;
     margin: 40px auto;
-
+    font-size:20px;
 }
 
+
 body {
-    background-color: #ACFDF1;
-    color: #E08660;
-    font-family: 'Libre Baskerville', serif;
+    background-color: #9FA4A6;
+    color: #303B40;
+    font-family: 'Saira Condensed', serif;
     font-size: 85%;
 
 
 }
 
+
 header.primary {
-    background-color: #319485;
+    background-color: #F2780C;
     text-align: center;
-    color: #E08660;
+    color: #303B40;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 20px;
-    text-shadow: 1px 1px #994522;
-    background-color: #319485;
+    text-shadow: 2px 2px #84C1D9;
+    background-color: #FFFFFF;
 }
 
 header.primary h1 {
-    font-family: 'Libre Baskerville', sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 4rem;
 }
 
 header.primary h1 a {
@@ -54,6 +66,7 @@ header.primary nav {
 
 header.primary nav ul li {
     list-style-type: none;
+    font-size:20px;
 
 }
 
@@ -67,16 +80,92 @@ header.primary nav ul {
 
 header.primary nav ul li a {
     text-decoration: none;
-    color: #E08660;
+    color: #F2780C;
     background-color: darkslategray;
     background-color: rgba (0, 0, 0, .4);
     padding: 6px 15px;
-    border-radius: 25px;
-    border: 2px solid #E08660;
+    border-radius: 5px;
+    border: 2px solid #F2780C;
     transition: .4s;
+    text-shadow: none;
 }
 
 header.primary nav ul li a:hover {
     color: #ACFDF1;
     background-color: rgba (0, 0, 0, .9);
 }
+
+.primary {
+    position: relative;
+}
+
+header.primary img {
+
+    max-width: 100%;
+    height: auto;
+    width: 25%;
+    display: block;
+
+
+
+}
+
+.segway {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+
+blockquote {
+
+    border: 2px solid #F2780C;
+    box-shadow: inset 0 4px 8px rgba(97, 88, 88, 0.4);
+    padding: 10px 10px 10px 10px;
+    background-color: #303B40;
+    color: #84C1D9;
+    margin: 20px 40px;
+    line-height: 1;
+}
+
+#environment{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 5px solid #F2780C;
+    padding-bottom: 1.6rem;
+}
+
+#environment article.card
+{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .4);
+    padding: 10px;
+    border-radius: 10px;
+    background: darkslategray;
+    border: 2px solid #F2780C;
+    font-size: .8rem;
+    transition: .4s;
+    color:#84C1D9;
+}
+
+#environment h3
+{
+    display:flex;
+    vertical-align:auto;
+}
+
+#waters{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 4px solid #84C1D9;
+}
+
+footer{
+    background-color:#303B40;
+    color:#84C1D9;
+    text-decoration: none;
+}
+
