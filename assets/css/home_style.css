@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    font-family:'Poppins', serif;
+    display:block;
+    color:coral;
+    width: 80vw;
+    max-width: 960px;
+    margin:auto;
+    font-size:20px;
+    border-style:outset;
+    padding:20px;
+}
+
+h1{
+    text-align:center;
+}
+
+nav li{
+    
+}
