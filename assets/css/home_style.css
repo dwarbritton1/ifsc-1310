@@ -15,16 +15,39 @@ body {
     color:coral;
     width: 80vw;
     max-width: 960px;
-    margin:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
     font-size:20px;
-    border-style:outset;
+    border-style:solid;
     padding:20px;
+    
 }
+
+
+
+#content{
+    list-style-type: upper-roman;
+    font-size:30px;
+    display:block;
+    text-decoration:none;
+    
+    
+}
+
+#content a{
+    text-decoration:none;
+}
+
 
 h1{
     text-align:center;
 }
 
-nav li{
-    
-}
+
+
+
+
+
+
+
