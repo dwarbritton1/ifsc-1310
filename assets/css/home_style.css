@@ -9,18 +9,18 @@ html {
 }
 
 body {
-    background-color: black;
+    
     font-family:'Poppins', serif;
     display:block;
-    color:coral;
+    color:black;
     width: 80vw;
     max-width: 960px;
     margin-left:auto;
     margin-right:auto;
     margin-top:50px;
     font-size:20px;
-    border-style:solid;
-    padding:20px;
+    background-color: #fbfafe;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23030303' fill-opacity='0.6' fill-rule='evenodd'/%3E%3C/svg%3E");
     
 }
 
@@ -31,18 +31,65 @@ body {
     font-size:30px;
     display:block;
     text-decoration:none;
+   
+}
+
+ nav{
+    padding: 5px;
+    display:flex;
+    justify-content:space-evenly;
+    
     
     
 }
 
 #content a{
     text-decoration:none;
+    color: white;
+    background-color: black;
+    background-color: rgba (0, 0, 0, .4);
+    padding: 6px 15px;
+    border: 2px solid white;
+    transition: .9s;
 }
+
+#content a:hover{
+    color: crimson;
+    background-color: crimson;
+    border:crimson;
+}
+
+
 
 
 h1{
     text-align:center;
 }
+
+
+#everything{
+    background-color:crimson;
+    border-style:solid;
+    padding:20px;
+    color:black;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    display:block;
+    margin:auto;
+    border:black;
+    border-style:outset;
+}
+
+
+
+
+
+
 
 
 
