@@ -62,28 +62,31 @@ header.primary h1 a {
     color: #E08660;
     text-shadow: 1px 1px #994522;
     text-decoration: none;
-    padding:1px;
+
+    
 }
 
 header.primary nav {
-    max-width: 100%;
+    
+    max-width: 1000px;
     margin: 20px auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    position:relative;
+    top:0px;
+    left:0px;
+    
     
 }
 
 header.primary nav ul li {
     list-style-type: none;
-    font-size:20px;
+    font-size:50px;
 
 }
 
 header.primary nav ul {
     padding: 2px;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-evenly;
 
 }
@@ -94,8 +97,8 @@ header.primary nav ul li a {
     background-color: darkslategray;
     background-color: rgba (0, 0, 0, .4);
     padding: 6px 15px;
-    border-radius: 5px;
-    border: 2px solid #F2780C;
+    
+    border: 1px solid #F2780C;
     transition: .4s;
     text-shadow: none;
 }
@@ -109,15 +112,34 @@ header.primary nav ul li a:hover {
     position: relative;
 }
 
-header.primary img {
+#segway {
 
     max-width: 100%;
     height: auto;
     width: 25%;
     display:block;
+    position:relative;
+    top:0px;
+    left:0px;
+    margin-right:auto;
+    margin-left:auto;
+    
+
+}
+
+#centlog{
+    max-width: 100%;
+    
+    position:relative;
+    top:0px;
+    right:0px;
+    width: 25%;
+    display:block;
     margin-left:auto;
     margin-right:auto;
 
+    
+    
 }
 
 
