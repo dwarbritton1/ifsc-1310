@@ -97,8 +97,8 @@ header.primary nav ul li a {
     background-color: darkslategray;
     background-color: rgba (0, 0, 0, .4);
     padding: 6px 15px;
-    
-    border: 1px solid #F2780C;
+    border-radius:20px;
+    border: 2px solid #F2780C;
     transition: .4s;
     text-shadow: none;
 }
@@ -167,6 +167,7 @@ blockquote {
     background-color: #84C1D9;
     padding:15px;
     border: 1px solid black;
+    border-radius:20px;
 }
 
 #environment article.card
@@ -176,9 +177,10 @@ blockquote {
     border-radius: 10px;
     background: darkslategray;
     border: 2px solid #F2780C;
-    font-size: .8rem;
+    font-size: 25px;
     transition: .4s;
     color:#84C1D9;
+    padding:15px;
 }
 
 #environment h3
@@ -192,34 +194,48 @@ blockquote {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: 4px solid #84C1D9;
+    border: 4px solid #303B40;
+    padding:2px;
+    border-radius:20px;
 }
 
 footer{
-    background-color:#303B40;
-    color:#84C1D9;
-    text-decoration: none;
+    background-color:#F2780C;
+    color:#303B40;
+    text-align:right;
+    padding:20px;
+    font-size:20px;
+    
+}
+
+footer a{
+    text-decoration:none;
 }
 
 #description{
     background-color: #84C1D9;
     padding:15px;
     border: 1px solid black;
-    
+    border-radius:20px;
 
+    }
+
+#desription p{
+    display: inline-block;
+    width: 46%;
 }
 
-#description  p {
-    float:left;
-    
-    text-align:left;
-    
-}
 #description img{
-    display:flex;
-    align-items:right;
-    max-width:100%;
-    width:50%;
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+}
+
+.card img{
+    border:1px solid #F2780C;
+    border-radius:20px;
+    max-width:50%;
+    float:right;
     
 }
     
@@ -228,19 +244,45 @@ footer{
     background-color: #84C1D9;
     padding:15px;
     border: 1px solid black;
+    border-radius:20px;
 }
 
 #controls{
     background-color: #84C1D9;
     padding:15px;
     border: 1px solid black;
+    border-radius:20px;
+}
+
+#controls p{
+    background-color:#F2780C;
+    border: 2px solid black;
+    padding:10px;
+    border-radius: 20px 1px;
 }
 
 #steering{
     background-color: #84C1D9;
     padding:15px;
     border: 1px solid black;
+    border-radius:20px;
 }
+
+#design{
+    background-color: #84C1D9;
+    padding:15px;
+    border: 1px solid black;
+    border-radius:20px;
+}
+
+#content{
+    background-color: #84C1D9;
+    padding:15px;
+    border: 1px solid black;
+    border-radius:20px;
+}
+
+
 
 
 

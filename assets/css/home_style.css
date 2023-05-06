@@ -132,6 +132,18 @@ h2{
     text-shadow: 1px 1px darkblue;
 }
 
+#thoughts{
+    background-color:darkred;
+    padding:20px;
+    border: 2px 2px  brown;
+    border-style:inset;
+}
+
+#thoughts p{
+    color:#fbfafe;
+    text-shadow: 1px 1px darkblue;
+}
+
 
 
 
