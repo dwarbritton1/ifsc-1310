@@ -63,8 +63,16 @@ body {
 
 
 h1{
+    font-family: 'Gothic A1';
     text-align:center;
-    text-shadow:1px 1px white;
+    font-size: 80px;
+    text-shadow: -1px 1px chartreuse,
+                1px 1px chartreuse,
+                1px -1px chartreuse,
+                -1px -1px chartreuse;
+    color:#5C4033;
+    font-kerning:auto;
+                
     
 }
 
@@ -86,6 +94,30 @@ img{
     border:black;
     border-style:outset;
 }
+
+h2{
+    text-shadow: -1px 1px chartreuse,
+    1px 1px chartreuse,
+    1px -1px chartreuse,
+    -1px -1px chartreuse;
+    color:#5C4033;
+    font-kerning:auto; 
+    
+}
+
+#revision{
+    background-color:darkred;
+    padding:20px;
+    border: 2px 2px  black;
+    border-style:inset
+
+}
+
+#revision p{
+    color:beige;
+}
+
+
 
 
 
