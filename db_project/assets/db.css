@@ -1,0 +1,145 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    
+    font-family:'Poppins', serif;
+    display:block;
+    color:black;
+    width: 80vw;
+    max-width: 960px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    font-size:20px;
+    background-color: #fbfafe;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='12' viewBox='0 0 40 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 6.172L6.172 0h5.656L0 11.828V6.172zm40 5.656L28.172 0h5.656L40 6.172v5.656zM6.172 12l12-12h3.656l12 12h-5.656L20 3.828 11.828 12H6.172zm12 0L20 10.172 21.828 12h-3.656z' fill='%23030303' fill-opacity='0.6' fill-rule='evenodd'/%3E%3C/svg%3E");
+    
+}
+
+
+
+#content{
+    list-style-type: upper-roman;
+    font-size:30px;
+    display:block;
+    text-decoration:none;
+   
+}
+
+blockquote{
+    display: block;
+    padding-top: 0px;
+    padding-bottom:5px;
+    font-size: .8em;
+    
+    text-align: center;
+    
+    margin: 10px 10px;
+}
+
+ nav{
+    padding: 5px;
+    display:flex;
+    justify-content:space-evenly;
+    
+    
+    
+}
+
+#content a{
+    text-decoration:none;
+    color: white;
+    text-shadow:1px 1px black;
+    padding: 6px 15px;
+   
+    transition: .9s;
+}
+
+#content a:hover{
+    color: crimson;
+    background-color: crimson;
+    border:crimson;
+    text-shadow: 1px 1px crimson;
+}
+
+
+
+
+h1{
+    font-family: 'Gothic A1';
+    text-align:center;
+    font-size: 80px;
+    text-shadow: -1px 1px chartreuse,
+                1px 1px chartreuse,
+                1px -1px chartreuse,
+                -1px -1px chartreuse;
+    color:#5C4033;
+    font-kerning:auto;
+                
+    
+}
+
+
+#page{
+    background-color:crimson;
+    border-style:solid;
+    padding:20px;
+    color:black;
+    
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: 50%;
+    display:block;
+    margin:auto;
+    border:black;
+    border-style:outset;
+}
+
+h2{
+    text-shadow: -1px 1px chartreuse,
+    1px 1px chartreuse,
+    1px -1px chartreuse,
+    -1px -1px chartreuse;
+    color:#5C4033;
+    font-kerning:auto; 
+    
+}
+
+#revision{
+    background-color:darkred;
+    padding:20px;
+    border: 2px 2px  brown;
+    border-style:inset;
+    
+    /*background-image:url(/assets/img/natural-brown-wood-texture-8.jpg);
+    background-size:100%;*/
+    
+}
+
+#revision p{
+    color:#fbfafe;
+    text-shadow: 1px 1px darkblue;
+}
+
+#thoughts{
+    background-color:darkred;
+    padding:20px;
+    border: 2px 2px  brown;
+    border-style:inset;
+}
+
+#thoughts p{
+    color:#fbfafe;
+    text-shadow: 1px 1px darkblue;
+}
