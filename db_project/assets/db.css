@@ -26,9 +26,10 @@ body {
 
 
 
-#content{
+#formz{
     list-style-type: upper-roman;
-    font-size:30px;
+    font-size:20px;
+    color: whitesmoke;
     display:block;
     text-decoration:none;
    
