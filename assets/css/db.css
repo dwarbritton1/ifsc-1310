@@ -64,10 +64,10 @@ blockquote{
 }
 
 #content a:hover{
-    color: crimson;
-    background-color: crimson;
-    border:crimson;
-    text-shadow: 1px 1px crimson;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border:rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 
@@ -77,19 +77,19 @@ h1{
     font-family: 'Gothic A1';
     text-align:center;
     font-size: 80px;
-    text-shadow: -1px 1px chartreuse,
-                1px 1px chartreuse,
-                1px -1px chartreuse,
-                -1px -1px chartreuse;
-    color:#5C4033;
+    text-shadow: -1px 1px rgb(0, 0, 0),
+                1px 1px rgb(0, 0, 0),
+                1px -1px rgb(0, 0, 0),
+                -1px -1px rgb(0, 0, 0);
+    color:#d1b6a9;
     font-kerning:auto;
                 
-    
+
 }
 
 
 #page{
-    background-color:crimson;
+    background-color:rgb(0, 0, 0);
     border-style:solid;
     padding:20px;
     color:black;
