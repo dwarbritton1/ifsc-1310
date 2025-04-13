@@ -144,8 +144,6 @@ h2{
     text-shadow: 1px 1px darkblue;
 }
 
-
-
 #formz{
     list-style-type: upper-roman;
     font-size:20px;
@@ -156,13 +154,13 @@ h2{
 }
 
 #loggin{
-    background-color:darkred;
+    background-color:rgb(204, 204, 204);
     padding:20px;
-    border: 2px 2px  brown;
+    border: 2px 2px  rgb(0, 0, 0);
     border-style:inset;
 }
 
 #loggin p{
-    color:#fbfafe;
-    text-shadow: 1px 1px darkblue;
+    color:#d6c9ff;
+    text-shadow: 1px 1px rgb(34, 34, 39);
 }
