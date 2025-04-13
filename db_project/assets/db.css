@@ -26,10 +26,9 @@ body {
 
 
 
-#formz{
+#content{
     list-style-type: upper-roman;
-    font-size:20px;
-    color: whitesmoke;
+    font-size:30px;
     display:block;
     text-decoration:none;
    
@@ -65,10 +64,10 @@ blockquote{
 }
 
 #content a:hover{
-    color: crimson;
-    background-color: crimson;
-    border:crimson;
-    text-shadow: 1px 1px crimson;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border:rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 
@@ -78,19 +77,19 @@ h1{
     font-family: 'Gothic A1';
     text-align:center;
     font-size: 80px;
-    text-shadow: -1px 1px chartreuse,
-                1px 1px chartreuse,
-                1px -1px chartreuse,
-                -1px -1px chartreuse;
-    color:#5C4033;
+    text-shadow: -1px 1px rgb(0, 0, 0),
+                1px 1px rgb(0, 0, 0),
+                1px -1px rgb(0, 0, 0),
+                -1px -1px rgb(0, 0, 0);
+    color:#d1b6a9;
     font-kerning:auto;
                 
-    
+
 }
 
 
 #page{
-    background-color:crimson;
+    background-color:rgb(0, 0, 0);
     border-style:solid;
     padding:20px;
     color:black;
@@ -131,6 +130,29 @@ h2{
 #revision p{
     color:#fbfafe;
     text-shadow: 1px 1px darkblue;
+}
+
+#thoughts{
+    background-color:darkred;
+    padding:20px;
+    border: 2px 2px  brown;
+    border-style:inset;
+}
+
+#thoughts p{
+    color:#fbfafe;
+    text-shadow: 1px 1px darkblue;
+}
+
+
+
+#formz{
+    list-style-type: upper-roman;
+    font-size:20px;
+    color: whitesmoke;
+    display:block;
+    text-decoration:none;
+   
 }
 
 #loggin{
