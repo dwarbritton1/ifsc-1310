@@ -91,7 +91,7 @@ h1{
 #page{
     background-color:rgb(255, 255, 255);
     border-style:solid;
-    border-color:black;
+    border: 2px 2px  rgb(0, 0, 0);
     padding:20px;
     color:rgb(255, 255, 255);
     
@@ -148,8 +148,8 @@ h2{
 #formz{
     list-style-type: upper-roman;
     font-size:20px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     display:block;
     text-decoration:none;
    
@@ -159,7 +159,7 @@ h2{
     background-color:rgb(255, 254, 254);
     padding:20px;
     border: 2px 2px  rgb(0, 0, 0);
-    border-style:inset;
+    border-style:double;
 }
 
 #loggin p{
