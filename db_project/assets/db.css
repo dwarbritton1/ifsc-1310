@@ -81,7 +81,7 @@ h1{
                 1px 1px rgb(0, 0, 0),
                 1px -1px rgb(0, 0, 0),
                 -1px -1px rgb(0, 0, 0);
-    color:#d1b6a9;
+    color:#000000;
     font-kerning:auto;
                 
 
@@ -92,7 +92,7 @@ h1{
     background-color:rgb(255, 255, 255);
     border-style:solid;
     padding:20px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     
 }
 
@@ -111,7 +111,7 @@ h2{
     1px 1px rgb(0, 0, 0),
     1px -1px rgb(0, 0, 0),
     -1px -1px rgb(0, 0, 0);
-    color:#ffffff;
+    color:#000000;
     font-kerning:auto; 
     
 }
@@ -147,20 +147,21 @@ h2{
 #formz{
     list-style-type: upper-roman;
     font-size:20px;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
+    background-color: black;
     display:block;
     text-decoration:none;
    
 }
 
 #loggin{
-    background-color:rgb(204, 204, 204);
+    background-color:rgb(255, 254, 254);
     padding:20px;
     border: 2px 2px  rgb(0, 0, 0);
     border-style:inset;
 }
 
 #loggin p{
-    color:#d6c9ff;
+    color:#000000;
     text-shadow: 1px 1px rgb(34, 34, 39);
 }
